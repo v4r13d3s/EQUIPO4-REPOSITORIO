@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Papeleria M'S">
+    <meta name="description" content="Landing page">
+    <meta name="keywords" content="Papeleria,Maria's Store">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Papelería Maria's Store</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/Web/Img/logo.png">
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Web/css/style.css">
+    <link rel="stylesheet" href="/Web/css/tagEscritura.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Iconos bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/bootstrap-footer-01/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+<!--inicio barra de navegacion-->
+<div class="container-fluid px-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 fixed-top">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#"><img src="/Web/Img/logo.png" alt=""></a>
+            <span class="navbar-brand d-lg-none">Maria's Store</span>
+
+            <div class="btns">
+                <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Web/html/Principal.html" target="_self">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Productos<span
+                                class="fa fa-angle-down"></span></a>
+                        <div class="dropdown-menu" id="dropdown-menu1" aria-labelledby="navbarDropdown1">
+                            <div class="container d-flex flex-column justify-content-center align-items-center">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-center tab">
+                                            <div class="fa-icon text-center">
+                                                <i class="bi bi-pencil"></i>
+                                            </div>
+                                            <div class="d-flex flex-column">
+                                                <a class="dropdown-item" href="/Web/html/categoriaEs.html"
+                                                    target="_self">
+                                                    <h6 class="mb-0">Escritura</h6>
+                                                    <small class="text-muted">Herramientas para escribir</small>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-center tab">
+                                            <div class="fa-icon text-center">
+                                                <i class="bi bi-journals"></i>
+                                            </div>
+                                            <div class="d-flex flex-column">
+                                                <a class="dropdown-item" href="/Web/html/categoriaCu.html">
+                                                    <h6 class="mb-0">Papel y Cuadernos</h6>
+                                                    <small class="text-muted">Superficies para escribir</small>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-center tab">
+                                            <div class="fa-icon text-center">
+                                                <i class="bi bi-folder"></i>
+                                            </div>
+                                            <div class="d-flex flex-column">
+                                                <a class="dropdown-item" href="/Web/html/categoriaotg.html">
+                                                    <h6 class="mb-0">Organización</h6>
+                                                    <small class="text-muted">Gestión de documentos</small>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-center tab">
+                                            <div class="fa-icon text-center">
+                                                <i class="bi bi-briefcase"></i>
+                                            </div>
+                                            <div class="d-flex flex-column">
+                                                <a class="dropdown-item" href="/Web/html/categoriaMto.html">
+                                                    <h6 class="mb-0">Material de Oficina</h6>
+                                                    <small class="text-muted">Suministros de organización</small>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-center tab">
+                                            <div class="fa-icon text-center">
+                                                <i class="bi bi-eraser"></i>
+                                            </div>
+                                            <div class="d-flex flex-column">
+                                                <a class="dropdown-item" href="categoriaAcc.html">
+                                                    <h6 class="mb-0">Accesorios</h6>
+                                                    <small class="text-muted">Complementos de escritura</small>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="d-flex align-items-center tab">
+                                            <div class="fa-icon text-center">
+                                                <i class="bi bi-brush"></i>
+                                            </div>
+                                            <div class="d-flex flex-column">
+                                                <a class="dropdown-item" href="/Web/html/categoriaArt.html">
+                                                    <h6 class="mb-0">Suministros de Arte</h6>
+                                                    <small class="text-muted">Materiales para crear</small>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Web/html/servicios.html" target="_self">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Web/html/nosotros.html" target="_self">Nosotros</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Web/html/contactanos.html" target="_self">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="log ml-auto d-none d-lg-block">
+                <a href="/Web/html/singUp.html"><button class="sing">Iniciar Sesión</button></a>
+                </button>
+                <a href="/Web/html/singIn.html"><button class="sing">
+                        Registrarse
+                    </button></a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--fin de barra de navegacion-->
+
+
+
+<div class="tag-categories container mt-4">
+    <div class="menu row">
+        <div class="item">
+            <a href="/Web/html/categoriaArt.html" class="link">
+                <span>Arte</span>
+                <svg viewBox="0 0 360 360" xml:space="preserve">
+                    <g id="SVGRepo_iconCarrier">
+                        <path id="XMLID_225_"
+                            d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z">
+                        </path>
+                    </g>
+                </svg>
+            </a>
+            <div class="submenu">
+                <div class="submenu-item">
+                    <a href="/Web/html/01TagPincelYBrochas.html" class="submenu-link">Pincel Y Brochas</a>
+                </div>
+                <div class="submenu-item">
+                    <a href="/Web/html/02TagAccesorios.html" class="submenu-link">Accesorios</a>
+                </div>
+                <div class="submenu-item">
+                    <a href="/Web/html/02TagFoamys.html" class="submenu-link">Foamys</a>
+                </div>
+                <div class="submenu-item">
+                    <a href="/Web/html/04TagPinturas.HTML" class="submenu-link">Pinturas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="main-search-input-wrap">
+                        <div id="main-search-input" class="fl-wrap">
+                            <div id="main-search-input-item">
+                                <input type="text" id="searchInput" class="form-control"
+                                    placeholder="Buscar productos...">
+                            </div>
+                            <button id="searchButton" class="main-search-button btn btn-primary">Buscar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <!-- Modal -->
+        <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel">Resultados de Búsqueda</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Las tarjetas de productos aparecerán aquí -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="like-wrapper1">
+            <input class="check" type="checkbox" id="like-toggle" />
+            <label class="container1" for="like-toggle">
+                <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="icon1 inactive">
+                    <path
+                        d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z">
+                    </path>
+                </svg>
+                <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="icon1 active">
+                    <path
+                        d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z">
+                    </path>
+                </svg>
+                <div class="checkmark"></div>
+                <a href="/Web/html/favoritos.html"><span class="like-text">Favoritos</span>
+            </label></a>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div id="detalles-producto" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeDetails()">&times;</span>
+            <div id="detalle-contenido" class="detalle-producto">
+                <div class="titulo-card">
+                    <h2></h2>
+                </div>
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="/Web/Img/destacados/" alt="Image 1">
+                    </div>
+                </div>
+                <div class="rating">
+                    <input value="5" name="rating" id="star5" type="radio">
+                    <label for="star5"></label>
+                    <input value="4" name="rating" id="star4" type="radio">
+                    <label for="star4"></label>
+                    <input value="3" name="rating" id="star3" type="radio">
+                    <label for="star3"></label>
+                    <input value="2" name="rating" id="star2" type="radio">
+                    <label for="star2"></label>
+                    <input value="1" name="rating" id="star1" type="radio">
+                    <label for="star1"></label>
+                </div>
+
+                <br>
+                <div class="tabs">
+                    <button class="tablink" onclick="openTab('Descripcion')" id="defaultOpen">Descripción</button>
+                    <button class="tablink" onclick="openTab('Caracteristicas')">Características</button>
+                </div>
+                <div id="Descripcion" class="tabcontent">
+                    <p></p>
+                </div>
+                <div id="Caracteristicas" class="tabcontent">
+                    <table class="caracteristicas">
+                        <tr>
+                            <th>caracteristicas</th>
+                            <th>Detalles</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Dimensions</td>
+                            <td>200x90x75 cm</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="costo">
+                    <button>
+                        $60.66
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="new-section">
+        <div class="section">
+            <div class="categoria">
+                <h2>Foamys</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row g-1">
+
+
+         
+
+
+            <!--producto 9-->
+            <div class="col-md-3">
+                <div class="card p-3 product" data-name=" Foamy con Diamantina de 55 x 43 cm Rosa" data-id="63">
+                    <input type="checkbox" id="favorite9" name="favorite-checkbox" value="favorite-button">
+                    <label for="favorite9" class="container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                        <div class="action">
+                            <span class="option-2">Añadido</span>
+                            <span class="option-1">Añadir a Favoritos</span>
+                        </div>
+                    </label>
+                    <div class="text-center">
+                        <img src="/Web/Img/tagArte/Foamy con Diamantina de 55 x 43 cm Rosa.webp"
+                            alt=" Foamy con Diamantina de 55 x 43 cm Rosa"
+                            title=" Foamy con Diamantina de 55 x 43 cm Rosa" width="200">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block price">$20.97</span>
+                        <div class="nombre">
+                            Foamy con Diamantina de 55 x 43 cm Rosa
+                        </div>
+                        <div class="quantity-controls">
+                            <button class="btn decrement">-</button>
+                            <span class="quantity">1</span>
+                            <button class="btn increment">+</button>
+                        </div>
+                        <div class="buttons d-flex flex-row">
+                            <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+                            <button class="btn cart-button btn-block"><span class="dot">1</span>Añadir al
+                                carrito</button>
+                        </div>
+                        <div class="weight"></div>
+                        <button class="btn mt-2 btn-block detalles-btn" onclick="showDetails(63)">Detalles</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--producto 10-->
+            <div class="col-md-3">
+                <div class="card p-3 product" data-name="
+Foamy Tamaño Carta Colores Surtidos Paquete con 24 Piezas" data-id="62">
+                    <input type="checkbox" id="favorite11" name="favorite-checkbox" value="favorite-button">
+                    <label for="favorite11" class="container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                        <div class="action">
+                            <span class="option-2">Añadido</span>
+                            <span class="option-1">Añadir a Favoritos</span>
+                        </div>
+                    </label>
+                    <div class="text-center">
+                        <img src="/Web/Img/tagArte/Foamy Tamaño Carta Colores Surtidos Paquete con 24 Piezas.webp"
+                            width="200" alt="Foamy Tamaño Carta Colores Surtidos Paquete con 24 Piezas"
+                            title=" Foamy Tamaño Carta Colores Surtidos Paquete con 24 Piezas">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block price">$47.07</span>
+                        <div class="nombre">
+                            Foamy Tamaño Carta Colores Surtidos Paquete con 24 Piezas
+                        </div>
+                        <div class="quantity-controls">
+                            <button class="btn decrement">-</button>
+                            <span class="quantity">1</span>
+                            <button class="btn increment">+</button>
+                        </div>
+                        <div class="buttons d-flex flex-row">
+                            <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+                            <button class="btn cart-button btn-block"><span class="dot">1</span>Añadir al
+                                carrito</button>
+                        </div>
+                        <div class="weight"></div>
+                        <button class="btn mt-2 btn-block detalles-btn" onclick="showDetails(62)">Detalles</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--producto 11-->
+            <div class="col-md-3">
+                <div class="card p-3 product" data-name=" Foamy Tamaño Carta Naranja Paquete con 5 Piezas" data-id="64">
+                    <input type="checkbox" id="favorite12" name="favorite-checkbox" value="favorite-button">
+                    <label for="favorite12" class="container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                        <div class="action">
+                            <span class="option-2">Añadido</span>
+                            <span class="option-1">Añadir a Favoritos</span>
+                        </div>
+                    </label>
+                    <div class="text-center">
+                        <img src="/Web/Img/tagArte/Foamy Tamaño Carta Naranja Paquete con 5 Piezas.webp" width="200"
+                            alt=" Foamy Tamaño Carta Naranja Paquete con 5 Piezas"
+                            title=" Foamy Tamaño Carta Naranja Paquete con 5 Piezas">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block price">$11.79</span>
+                        <div class="nombre">
+                            Foamy Tamaño Carta Naranja Paquete con 5 Piezas
+                        </div>
+                        <div class="quantity-controls">
+                            <button class="btn decrement">-</button>
+                            <span class="quantity">1</span>
+                            <button class="btn increment">+</button>
+                        </div>
+                        <div class="buttons d-flex flex-row">
+                            <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+                            <button class="btn cart-button btn-block"><span class="dot">1</span>Añadir al
+                                carrito</button>
+                        </div>
+                        <div class="weight"></div>
+                        <button class="btn mt-2 btn-block detalles-btn" onclick="showDetails(64)">Detalles</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!---->
+
+
+            <!-- Producto 2 -->
+            <div class="col-md-3">
+                <div class="card p-3 product" data-name="Libreta de Apuntes Pocket de 80 Hojas de Raya Dogs"
+                    data-id="67">
+                    <input type="checkbox" id="favorite21" name="favorite-checkbox" value="favorite-button">
+                    <label for="favorite21" class="container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                        <div class="action">
+                            <span class="option-2">Añadido</span>
+                            <span class="option-1">Añadir a Favoritos</span>
+                        </div>
+                    </label>
+                    <div class="text-center">
+                        <img src="/Web/Img/tagArte/Foamy con Diamantina de 55 x 43 cm Fucsia.webp" width="200"
+                            alt=" Foamy con Diamantina de 55 x 43 cm Fucsia"
+                            title=" Foamy con Diamantina de 55 x 43 cm Fucsia">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block price">$20.97</span>
+                        <div class="nombre">
+                            Foamy con Diamantina de 55 x 43 cm Fucsia
+                        </div>
+                        <div class="quantity-controls">
+                            <button class="btn decrement">-</button>
+                            <span class="quantity">1</span>
+                            <button class="btn increment">+</button>
+                        </div>
+                        <div class="buttons d-flex flex-row">
+                            <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+                            <button class="btn cart-button btn-block"><span class="dot">1</span>Añadir al
+                                carrito</button>
+                        </div>
+                        <div class="weight"></div>
+                        <button class="btn mt-2 btn-block detalles-btn" onclick="showDetails(67)">Detalles</button>
+                    </div>
+                </div>
+            </div>
+
+         
+
+
+
+
+
+            <div class="col-md-3">
+                <div class="card p-3 product" data-name=" Foamy con Diamantina de 55 x 43 cm Dorado" data-id="80">
+                    <input type="checkbox" id="favorite2137" name="favorite-checkbox" value="favorite-button">
+                    <label for="favorite2137" class="container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                        <div class="action">
+                            <span class="option-2">Añadido</span>
+                            <span class="option-1">Añadir a Favoritos</span>
+                        </div>
+                    </label>
+                    <div class="text-center">
+                        <img src="/Web/Img/tagArte/Foamy con Diamantina de 55 x 43 cm Dorado.webp"
+                            alt=" Foamy con Diamantina de 55 x 43 cm Dorado"
+                            title=" Foamy con Diamantina de 55 x 43 cm Dorado" width="200">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block price">$20.97</span>
+                        <div class="nombre">
+                            Foamy con Diamantina de 55 x 43 cm Dorado
+
+                        </div>
+                        <div class="quantity-controls">
+                            <button class="btn decrement">-</button>
+                            <span class="quantity">1</span>
+                            <button class="btn increment">+</button>
+                        </div>
+                        <div class="buttons d-flex flex-row">
+                            <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+                            <button class="btn cart-button btn-block"><span class="dot">1</span>Añadir al
+                                carrito</button>
+                        </div>
+                        <div class="weight"></div>
+                        <button class="btn mt-2 btn-block detalles-btn" onclick="showDetails(80)">Detalles</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card p-3 product" data-name="Foamy con Diamantina de 55 x 43 cm Azul Rey" data-id="81">
+                    <input type="checkbox" id="favorite2138" name="favorite-checkbox" value="favorite-button">
+                    <label for="favorite2138" class="container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                        <div class="action">
+                            <span class="option-2">Añadido</span>
+                            <span class="option-1">Añadir a Favoritos</span>
+                        </div>
+                    </label>
+                    <div class="text-center">
+                        <img src="/Web/Img/tagArte/Foamy con Diamantina de 55 x 43 cm Azul Rey.webp" width="200"
+                            alt="Foamy con Diamantina de 55 x 43 cm Azul Rey"
+                            title="Foamy con Diamantina de 55 x 43 cm Azul Rey">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block price">$20.97</span>
+                        <div class="nombre">
+                            Foamy con Diamantina de 55 x 43 cm Azul Rey
+                        </div>
+                        <div class="quantity-controls">
+                            <button class="btn decrement">-</button>
+                            <span class="quantity">1</span>
+                            <button class="btn increment">+</button>
+                        </div>
+                        <div class="buttons d-flex flex-row">
+                            <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+                            <button class="btn cart-button btn-block"><span class="dot">1</span>Añadir al
+                                carrito</button>
+                        </div>
+                        <div class="weight"></div>
+                        <button class="btn mt-2 btn-block detalles-btn" onclick="showDetails(81)">Detalles</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card p-3 product" data-name="Foamy Tamaño Carta Amarillo Huevo Paquete con 5 Piezas"
+                    data-id="82">
+                    <input type="checkbox" id="favorite2139" name="favorite-checkbox" value="favorite-button">
+                    <label for="favorite2139" class="container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                        </svg>
+                        <div class="action">
+                            <span class="option-2">Añadido</span>
+                            <span class="option-1">Añadir a Favoritos</span>
+                        </div>
+                    </label>
+                    <div class="text-center">
+                        <img src="/Web/Img/tagArte/Foamy Tamaño Carta Amarillo Huevo Paquete con 5 Piezas.webp"
+                            title="Foamy Tamaño Carta Amarillo Huevo Paquete con 5 Piezas"
+                            alt="Foamy Tamaño Carta Amarillo Huevo Paquete con 5 Piezas" width="200">
+                    </div>
+                    <div class="product-details">
+                        <span class="font-weight-bold d-block price">$11.79</span>
+                        <div class="nombre">
+                            Foamy Tamaño Carta Amarillo Huevo Paquete con 5 Piezas
+                        </div>
+                        <div class="quantity-controls">
+                            <button class="btn decrement">-</button>
+                            <span class="quantity">1</span>
+                            <button class="btn increment">+</button>
+                        </div>
+                        <div class="buttons d-flex flex-row">
+                            <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+                            <button class="btn cart-button btn-block"><span class="dot">1</span>Añadir al
+                                carrito</button>
+                        </div>
+                        <div class="weight"></div>
+                        <button class="btn mt-2 btn-block detalles-btn" onclick="showDetails(82)">Detalles</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Sección para mostrar detalles -->
+    <div id="detalles-producto" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeDetails()">&times;</span>
+            <div id="detalle-contenido">
+                <!-- Aquí se cargarán los detalles del producto -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<!--FOOTER-->
+
+
+<footer class="footer-20192" id="contacto">
+    <div class="site-section">
+        <div class="container">
+
+            <div class="cta d-block d-md-flex align-items-center px-5">
+                <div>
+                    <h2 class="mb-0">¿Necesitas más información?</h2>
+                    <h3 class="text-dark">¡Estamos aquí para ayudarte!</h3>
+                </div>
+                <div class="ml-auto">
+                    <h2><a href="/Web/html/contactanos.html" class="btn btn-dark rounded-0 py-3 px-5"
+                            target="_self">Contactanos !</a></h2>
+                </div>
+            </div>
+
+            <div class="row conte-f">
+                <div class="col-sm">
+                    <div class="logo1">
+                        <a href="/Web/html/Principal.html" class="footer-logo">Maria's Store</a>
+                    </div>
+                    <p class="copyright">
+                        <small>&copy; 2024</small>
+                    </p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Encuéntranos aquí:</h3>
+                            <div class="map-container">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.806965057956!2d-96.92733520000003!3d18.87697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c4e5513cbd199b%3A0x832b6a024e7aebda!2sDulcelandia!5e0!3m2!1sen!2sus!4v1720668026497!5m2!1sen!2sus"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <h3>Departamentos</h3>
+                    <ul class="list-unstyled links">
+                        <li><a href="/Web/html/categoriaEs.html">Escritura</a></li>
+                        <li><a href="/Web/html/categoriaCu.html">Papel y Cuadernos</a></li>
+                        <li><a href="/Web/html/categoriaotg.html">Organizacion</a></li>
+                        <li><a href="/Web/html/categoriaMto.html">Material de Oficina</a></li>
+                        <li><a href="/Web/html/categoriaAcc.html">Accesorios</a></li>
+                        <li><a href="/Web/html/categoriaArt.html">Arte</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h3>Empresa</h3>
+                    <ul class="list-unstyled links">
+                        <li><a href="/Web/html/nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="/Web/html/contactanos.html">Contáctanos</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h3>Atención al Cliente</h3>
+                    <ul class="list-unstyled links">
+                        <li><a href="/Web/html/cuestions.html">Preguntas Frecuentes</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h3 class="text-center">Siguenos !</h3>
+                    <ul class="wrapper">
+                        <li class="icon facebook">
+                            <span class="tooltip">Facebook</span>
+                            <svg viewBox="0 0 320 512" height="1.2em" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                </path>
+                            </svg>
+                        </li>
+                        <li class="icon twitter">
+                            <span class="tooltip">Twitter</span>
+                            <svg height="1.8em" fill="currentColor" viewBox="0 0 48 48"
+                                xmlns="http://www.w3.org/2000/svg" class="twitter">
+                                <path
+                                    d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429">
+                                </path>
+                            </svg>
+                        </li>
+                        <li class="icon instagram">
+                            <a href="https://www.instagram.com/msstore_pp?igsh=MWhhM3gzN3pybGhubQ=="><span
+                                    class="tooltip">Instagram</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.232s.008-2.388.046-3.231c.035-.78.166-1.204.275-1.485.145-.374.319-.64.599-.92.28-.28.547-.453.92-.598.281-.11.705-.24 1.485-.275.843-.039 1.096-.047 3.233-.047zM8 3.887a4.113 4.113 0 1 0 0 8.227 4.113 4.113 0 0 0 0-8.227zm0 6.787a2.674 2.674 0 1 1 0-5.347 2.674 2.674 0 0 1 0 5.347zm5.234-6.932a.96.96 0 1 1-1.92 0 .96.96 0 0 1 1.92 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--fin del footer-->
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="/Web/js/search.js"></script>
+    <script src="/Web/js/categorie-es.js"></script>
+    <script src="/Web/js/carrusel.js"></script>
+    <script src="/Web/js/favoritos.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+</body>
+
+
+</html>

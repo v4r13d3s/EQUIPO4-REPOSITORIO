@@ -1,0 +1,46 @@
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;
+    
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+
+
+/*adaptable responsivo*/
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-collapse {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-bottom: 1rem;
+        width: 50%;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .nav-link {
+        border-bottom: 2px solid rgb(205, 205, 205);
+        width: 100%;
+    }
+}
+
+
+

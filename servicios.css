@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Letters for Learners';
+    src: url('/Web/Fonts/Letters\ for\ Learners.ttf');
+}
+
+@font-face {
+    font-family: 'Mini-doggy';
+    src: url('/Web/Fonts/Good\ Bakwan.otf');
+}
+
+@font-face {
+    font-family: 'buba';
+    src: url('/Web/Fonts/BubaDEMO-Outline.otf');
+}
+
+@font-face {
+    font-family: 'aston';
+    src: url('/Web/Fonts/Cottontail\ Free.ttf');
+}
+
+
+
+
+h2,
+h3,
+h5 {
+    font-family: 'Mini-doggy';
+}
+
+
+p {
+    font-family: 'Letters for Learners', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+a {
+
+    font-family: 'aston';
+    font-weight: 100;
+
+}
+
+body {
+    user-select: none;
+}
+
+.serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-s{
+    display: flex;
+    justify-content: center;
+}
+
+ img{
+    width: 80%;
+   
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
